@@ -35,7 +35,7 @@ text-align: center;
 font-family: Open Sans;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
+
 }
 
 /* nav related style */
@@ -116,7 +116,16 @@ font-weight: 400;
 line-height: 30px;
 }
 
+
+
 /* main section style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
 
 .about{
     padding: 130px;
@@ -125,5 +134,13 @@ line-height: 30px;
     margin: 130px 0;
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
 
-/* about section style */
+
+.about-info{
+    text-align: center;
+}
