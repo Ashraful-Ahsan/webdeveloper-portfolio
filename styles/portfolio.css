@@ -212,7 +212,7 @@ footer {
 
 .social-links a{
         margin-right: 25px;
-
+}
 .contact input[type="text"], .contact input[type="email"],
 textarea {
   display: block;
@@ -225,5 +225,3 @@ textarea {
   border: 0;
   width: 100%;
 }
-
-.contact
